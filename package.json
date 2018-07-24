@@ -1,0 +1,36 @@
+{
+  "name": "rh",
+  "version": "1.0.0",
+  "description": "A tiny library to convert rgb to hex",
+  "main": "index.js",
+  "bin": {
+    "rh": "cli.js"
+  },
+  "scripts": {
+    "build": "babel index.src.js --out-file index.js",
+    "postinstall": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rgb",
+    "hex"
+  ],
+  "author": "Sunil Hari <isunilhari@gmail.com> (https://sunilhari.netlify.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "meow": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunilhari/rh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sunilhari/rh/issues"
+  },
+  "homepage": "https://github.com/sunilhari/rh/blob/master/README.md"
+}
