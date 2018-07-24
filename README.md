@@ -1,4 +1,4 @@
-# rh
+# rhex
 [![Build Status](https://travis-ci.org/sunilhari/rh.svg?branch=master)](https://travis-ci.org/sunilhari/rh)
 
 A tiny library to convert rgb to hex

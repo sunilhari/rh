@@ -1,5 +1,5 @@
 {
-  "name": "rh",
+  "name": "rhex",
   "version": "1.0.0",
   "description": "A tiny library to convert rgb to hex",
   "main": "index.js",
