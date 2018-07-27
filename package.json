@@ -1,6 +1,6 @@
 {
   "name": "rhex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tiny library to convert rgb to hex",
   "main": "index.js",
   "bin": {
@@ -22,7 +22,9 @@
     "babel-preset-env": "^1.7.0"
   },
   "dependencies": {
-    "meow": "^5.0.0"
+    "global": "^4.3.2",
+    "meow": "^5.0.0",
+    "parcel-bundler": "^1.9.7"
   },
   "repository": {
     "type": "git",
