@@ -8,7 +8,8 @@
   },
   "scripts": {
     "build": "babel index.src.js --out-file index.js",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "test":"exit 0"
   },
   "keywords": [
     "rgb",
